@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" type="text/css" href="cards.css">
 <head>
   <title>Cards</title>
+  <link rel="stylesheet" type="text/css" href="cards.css">
 </head>
 <body>
+    <p>Welcome to My Cards - Type whatever you would like in the box, create a new box, and then delete to ensure all works properly!</p>
 
-<p>HELLO</p>
+    <div id= "textboxParent">
+      <textarea name="textarea" rows="10" cols="30">Enter Text Here</textarea>
+    </div>
 
-<textarea name="textarea" rows="10" cols="30"></textarea>
+    <div>
+        <button onClick="createNewBox()">Create New Box!</button>
+        <button onClick="deleteNewBox()">Delete This Box</button>
+    </div>
 
-<textarea name="textarea" rows="10" cols="30"></textarea>
- <span class='"mySelect"'>Delete</span></div>
-
-
-<script type="text/javascript" src="cards.js"></script>
+    <script type="text/javascript" src="cards.js"></script>
 </body>
 </html>
